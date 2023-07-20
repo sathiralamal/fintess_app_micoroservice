@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i7nII6hmRljHGpb1kdX9nHwfbdbi+lF+4MlYPGiUaYw=",
+  "Source": "FitnessTrackerAPIGatway",
+  "BasePath": "_content/FitnessTrackerAPIGatway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

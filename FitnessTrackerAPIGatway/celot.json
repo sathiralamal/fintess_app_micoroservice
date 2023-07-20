@@ -1,0 +1,139 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Foods",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Foods/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Foods/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Foods/{id}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Exercise",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Exercise/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Exercise/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Exercise/{id}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Meal",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Meal/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Meal/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Meal/{id}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/User/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Workout",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Workout/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Workout/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Workout/{id}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/login?email={email}&password={password}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/User/login?email={email}&password={password}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/WorkoutPredictionService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5125
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/WorkoutPredictionService",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ]
+}
+
