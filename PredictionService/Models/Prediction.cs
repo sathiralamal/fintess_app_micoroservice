@@ -5,6 +5,7 @@ namespace PredictionService.Models
 	{
         public int Id { get; set; }
         public string Message { get; set; }
+        public List<double>? Values { get; set; }
     }
 }
 

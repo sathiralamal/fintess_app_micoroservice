@@ -1,37 +1,31 @@
-﻿<Properties StartupConfiguration="{3CEA8B3B-4583-4DCB-B8C3-C0B6C836BE69}|Default" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3CEA8B3B-4583-4DCB-B8C3-C0B6C836BE69}|http">
   <MonoDevelop.Ide.Workbench ActiveDocument="FitnessTrackerAPIGatway/celot.json">
     <Files>
-      <File FileName="FitnessApplication/Models/Workout.cs" Line="16" Column="1" IsPinned="True" />
-      <File FileName="PredictionService/Controllers/WorkoutPredictionServiceController.cs" Line="25" Column="15" />
-      <File FileName="PredictionService/Program.cs" Line="1" Column="1" />
-      <File FileName="FitnessTrackerAPIGatway/Program.cs" Line="8" Column="1" />
-      <File FileName="FitnessTrackerAPIGatway/appsettings.json" Line="1" Column="1" />
-      <File FileName="FitnessApplication/Program.cs" Line="1" Column="1" />
-      <File FileName="FitnessTrackerAPIGatway/OcelotJSON.json" Line="6" Column="47" />
-      <File FileName="FitnessApplication/Models/Exercise.cs" Line="1" Column="1" />
-      <File FileName="FitnessApplication/Controllers/ExerciseController.cs" Line="25" Column="60" />
+      <File FileName="FitnessTrackerAPIGatway/Program.cs" Line="5" Column="62" />
+      <File FileName="FitnessApplication/Controllers/ExerciseController.cs" Line="1" Column="1" />
+      <File FileName="FitnessApplication/Controllers/MealController.cs" />
+      <File FileName="FitnessApplication/Controllers/RecodeController.cs" Line="31" Column="37" />
+      <File FileName="FitnessApplication/Models/Recode.cs" Line="1" Column="1" />
+      <File FileName="FitnessTrackerAPIGatway/celot.json" Line="124" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FitnessApplication" expanded="True">
-            <Node name="FitnessApplication" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
-            <Node name="FitnessTrackerAPIGatway" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="FitnessApplication" selected="True" />
+            <Node name="FitnessTrackerAPIGatway" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FitnessApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.FitnessTrackerAPIGatway FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FitnessApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PredictionService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.FitnessTrackerAPIGatway PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

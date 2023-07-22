@@ -98,6 +98,32 @@
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     },
     {
+      "DownstreamPathTemplate": "/api/Recode",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Recode/*",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Recode/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 35135
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fitnessapp/Recode/{id}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+
+    {
       "DownstreamPathTemplate": "/api/Workout/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -123,7 +149,7 @@
     },
 
     {
-      "DownstreamPathTemplate": "/api/WorkoutPredictionService",
+      "DownstreamPathTemplate": "/api/WorkoutPredictionService/weightPrediction?days={days}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -131,8 +157,8 @@
           "Port": 5125
         }
       ],
-      "UpstreamPathTemplate": "/gateway/WorkoutPredictionService",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamPathTemplate": "/gateway/WorkoutPredictionService/weight?days={days}",
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ]
 }
