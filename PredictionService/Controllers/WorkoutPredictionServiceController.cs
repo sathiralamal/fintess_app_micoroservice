@@ -15,16 +15,16 @@ namespace PredictionService.Controllers
     {
         [Route("weightPrediction")]
         [HttpGet()]
-        public async Task<ActionResult<IEnumerable<Prediction>>> GetWorkouts(int days)
+        public async Task<ActionResult<IEnumerable<Prediction>>> GetWorkouts(int days ,int gainCaloriesp ,int burnCaloriesp,int predDay)
         {
-            List<int> gainCalories = new List<int>() { 2000, 2500, 1800, 1900, 2100, 2300, 2200 };
-            List<int> burnCalories = new List<int>() { 1500, 1700, 1600, 1400, 1800, 1900, 2000 };
+            int gainCalories = gainCaloriesp;
+            int burnCalories = burnCaloriesp;
 
             //Define the current weight
             double currentWeight = 70;
 
             //Define the number of days in a month
-            int daysInMonth = days;
+            int daysInMonth = predDay;
 
             //Define a list to store the predicted weights
             List<double> predictedWeights = new List<double>();
@@ -33,10 +33,10 @@ namespace PredictionService.Controllers
             for (int i = 0; i < daysInMonth; i++)
             {
                 //Calculate the net calories for each day
-                int netCalories = gainCalories[i % gainCalories.Count] - burnCalories[i % burnCalories.Count];
+                int netCalories = gainCalories - burnCalories;
 
                 //Calculate the weight change for each day
-                double weightChange = netCalories / 7700.0;
+                double weightChange = netCalories / (1100.0* days);
 
                 //Update the current weight
                 currentWeight += weightChange;
