@@ -15,13 +15,12 @@ namespace PredictionService.Controllers
     {
         [Route("weightPrediction")]
         [HttpGet()]
-        public async Task<ActionResult<IEnumerable<Prediction>>> GetWorkouts(int days ,int gainCaloriesp ,int burnCaloriesp,int predDay)
+        public async Task<ActionResult<IEnumerable<Prediction>>> GetWorkouts(int days ,int gainCaloriesp ,int burnCaloriesp,int predDay ,double currentWeight)
         {
             int gainCalories = gainCaloriesp;
             int burnCalories = burnCaloriesp;
 
             //Define the current weight
-            double currentWeight = 70;
 
             //Define the number of days in a month
             int daysInMonth = predDay;

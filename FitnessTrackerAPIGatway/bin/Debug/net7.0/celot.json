@@ -149,7 +149,7 @@
     },
 
     {
-      "DownstreamPathTemplate": "/api/WorkoutPredictionService/weightPrediction?days={days}&gainCaloriesp={gainCaloriesp}&burnCaloriesp={burnCaloriesp}&predDay={predDay}",
+      "DownstreamPathTemplate": "/api/WorkoutPredictionService/weightPrediction?days={days}&gainCaloriesp={gainCaloriesp}&burnCaloriesp={burnCaloriesp}&predDay={predDay}&currentWeight={currentWeight}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -157,7 +157,7 @@
           "Port": 5125
         }
       ],
-      "UpstreamPathTemplate": "/gateway/WorkoutPredictionService/weight?days={days}&gainCaloriesp={gainCaloriesp}&burnCaloriesp={burnCaloriesp}&predDay={predDay}",
+      "UpstreamPathTemplate": "/gateway/WorkoutPredictionService/weight?days={days}&gainCaloriesp={gainCaloriesp}&burnCaloriesp={burnCaloriesp}&predDay={predDay}&currentWeight={currentWeight}",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ]
