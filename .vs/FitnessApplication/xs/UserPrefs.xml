@@ -1,16 +1,13 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Fitness Microservice">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FitnessApplication/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FitnessTrackerAPIGatway/celot.json">
     <Files>
       <File FileName="PredictionService/Controllers/WorkoutPredictionServiceController.cs" Line="13" Column="20" />
       <File FileName="FitnessTrackerAPIGatway/celot.json" Line="160" Column="191" />
-      <File FileName="FitnessApplication/Program.cs" Line="20" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FitnessApplication" expanded="True">
-            <Node name="FitnessApplication" selected="True" />
-          </Node>
+          <Node name="FitnessApplication" expanded="True" />
         </State>
       </Pad>
     </Pads>
@@ -24,6 +21,7 @@
     <MultiItemSolutionRunConfiguration Id="Fitness Microservice" Name="Fitness Microservice">
       <Items>
         <StartupItem ItemId="{3CEA8B3B-4583-4DCB-B8C3-C0B6C836BE69}" ItemName="FitnessApplication" ConfigurationId="http" />
+        <StartupItem ItemId="{14CCE357-3D30-4C66-AB15-09F9803ED3CF}" ItemName="FitnessTrackerAPIGatway" ConfigurationId="http" />
         <StartupItem ItemId="{1186EB37-475F-45CD-8E5F-067121C616B8}" ItemName="PredictionService" ConfigurationId="http" />
       </Items>
     </MultiItemSolutionRunConfiguration>
