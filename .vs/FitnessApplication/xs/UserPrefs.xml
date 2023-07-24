@@ -1,22 +1,34 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Fitness Microservice">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FitnessTrackerAPIGatway/celot.json">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{14CCE357-3D30-4C66-AB15-09F9803ED3CF}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PredictionService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FitnessApplication/Controllers/UserController.cs">
     <Files>
-      <File FileName="PredictionService/Controllers/WorkoutPredictionServiceController.cs" Line="13" Column="20" />
-      <File FileName="FitnessTrackerAPIGatway/celot.json" Line="160" Column="191" />
+      <File FileName="FitnessTrackerAPIGatway/celot.json" />
+      <File FileName="FitnessApplication/Program.cs" />
+      <File FileName="FitnessApplication/Controllers/WorkoutController.cs" />
+      <File FileName="FitnessApplication/appsettings.json" />
+      <File FileName="FitnessApplication/Controllers/UserController.cs" Line="150" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FitnessApplication" expanded="True" />
+          <Node name="FitnessApplication" expanded="True">
+            <Node name="FitnessApplication" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="FitnessTrackerAPIGatway" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.FitnessTrackerAPIGatway PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.PredictionService PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.FitnessApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Fitness Microservice" Name="Fitness Microservice">
       <Items>
@@ -26,7 +38,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FitnessApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

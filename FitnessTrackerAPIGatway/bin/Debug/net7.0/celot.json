@@ -153,8 +153,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://predictionservice-ead.azurewebsites.net",
-          "Port": 80
+          "Host": "predictionservice-ead.azurewebsites.net",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/gateway/WorkoutPredictionService/weight?days={days}&gainCaloriesp={gainCaloriesp}&burnCaloriesp={burnCaloriesp}&predDay={predDay}&currentWeight={currentWeight}",
